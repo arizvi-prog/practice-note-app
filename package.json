@@ -8,9 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "express": "^4.19.2",
     "inquirer": "^8.2.6",
     "uuid": "^10.0.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
 }
