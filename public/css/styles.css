@@ -1,9 +1,20 @@
 img {
     max-width: 100%;
-}
-
-.dino {
+  }
+  
+  form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form > * {
+    padding: 6px 10px;
+    margin-bottom: 6px;
+  }
+  
+  .dino {
     display: block;
     max-width: 45%;
     margin: 45px auto 25px;
-}
+  }

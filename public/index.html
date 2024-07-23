@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>First Server</title>
-
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
     <h1>Note App</h1>
+
+
+    <form action="/notes" method="POST">
+        <h2>Create Note</h2>
+        <input name="noteText" type="text" placeholder="Enter the text for your note">
+        <button>Submit</button>
+    </form>
 
     <section class="note-output"></section>
 
     <script src="/js/browser.js"></script>
 </body>
+
 </html>
