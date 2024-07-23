@@ -10,7 +10,7 @@ const view_routes = require('./routes/view_routes');
 // Middleware - adding a layer to the server "onion" or removing layer from the "onion"
 app.use(express.static('./public'));
 // Allow form data to be attached in our routes
-app.use(express.urlencoded({ extended: false }))
+app.use(express.json())
 
 // Load Routes
 app.use('/', view_routes);
